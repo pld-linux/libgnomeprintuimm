@@ -2,15 +2,15 @@ Summary:	C++ wrappers for libgnomeprintui
 Summary(pl):	Interfejsy C++ dla libgnomeprintui
 Name:		libgnomeprintuimm
 Version:	2.5.0
-Release:	6
+Release:	7
 License:	GPL
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/gnome/sources/%{name}/2.5/%{name}-%{version}.tar.bz2
 # Source0-md5:	3f25ededb740a3382062105fb7cd3945
 URL:		http://www.gnome.org/
-BuildRequires:	gtkmm-devel >= 2.3.6
+BuildRequires:	gtkmm-devel >= 2.3.7
 BuildRequires:	libgnomeprintmm-devel >= 2.5.0
-BuildRequires:	libgnomeprintui-devel >= 2.5.2
+BuildRequires:	libgnomeprintui-devel >= 2.6.0
 BuildRequires:	perl-base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,8 +25,8 @@ Summary:	Devel files for libgnomeprintuimm
 Summary(pl):	Pliki nag³ówkowe dla libgnomeprintuimm
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	gnome-vfs2-devel >= 2.5.7
-Requires:	gtkmm-devel >= 2.3.6
+Requires:	gnome-vfs2-devel >= 2.6.0
+Requires:	gtkmm-devel >= 2.3.7
 Requires:	libgnomeprintmm-devel >= 2.5.0
 
 %description devel
