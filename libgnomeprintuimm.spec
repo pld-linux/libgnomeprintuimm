@@ -1,5 +1,5 @@
 Summary:	C++ wrappers for libgnomeprintui
-Summary(pl.UTF-8):   Interfejsy C++ dla libgnomeprintui
+Summary(pl.UTF-8):	Interfejsy C++ dla libgnomeprintui
 Name:		libgnomeprintuimm
 Version:	2.5.2
 Release:	1
@@ -22,7 +22,7 @@ Interfejsy C++ dla libgnomeprintui.
 
 %package devel
 Summary:	Devel files for libgnomeprintuimm
-Summary(pl.UTF-8):   Pliki nagłówkowe dla libgnomeprintuimm
+Summary(pl.UTF-8):	Pliki nagłówkowe dla libgnomeprintuimm
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	gnome-vfs2-devel >= 2.8.0
@@ -37,7 +37,7 @@ Pliki nagłówkowe dla libgnomeprintuimm.
 
 %package static
 Summary:	libgnomeprintuimm static library
-Summary(pl.UTF-8):   Biblioteka statyczna libgnomeprintuimm
+Summary(pl.UTF-8):	Biblioteka statyczna libgnomeprintuimm
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
