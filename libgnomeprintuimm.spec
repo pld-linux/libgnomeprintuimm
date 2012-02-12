@@ -2,7 +2,7 @@ Summary:	C++ wrappers for libgnomeprintui
 Summary(pl.UTF-8):	Interfejsy C++ dla libgnomeprintui
 Name:		libgnomeprintuimm
 Version:	2.5.2
-Release:	3
+Release:	4
 License:	LGPL v2+
 Group:		X11/Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/libgnomeprintuimm/2.5/%{name}-%{version}.tar.bz2
